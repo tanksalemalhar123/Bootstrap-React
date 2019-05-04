@@ -4,7 +4,7 @@ import Background1 from './img/portfolio3.jpg';
 import Background2 from './img/portfolio2.jpg';
 import Background3 from './img/portfolio1.jpg';
 import Background4 from './img/portfolio4.jpg';
-import Background5 from './img/bg-masthead.jpg';
+
 
 
 
@@ -19,10 +19,10 @@ render(){
             <p>Recent Project</p> 
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12 ">
-          <img src={Background1} style={{width:'auto'}}/>
-          <img src={Background2} style={{width:'auto'}}/>
-          <img src={Background3} style={{width:'auto'}}/>
-          <img src={Background4} style={{width:'auto'}}/>
+          <img src={Background1} style={{width:'auto'}} alt="bg1"/>
+          <img src={Background2} style={{width:'auto'}} alt="bg2"/>
+          <img src={Background3} style={{width:'auto'}} alt="bg3"/>
+          <img src={Background4} style={{width:'auto'}} alt="bg4" />
          
          
          

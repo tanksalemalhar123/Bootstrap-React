@@ -5,7 +5,6 @@ import Header from './Header';
 import registerServiceWorker from './registerServiceWorker';
 import Services from './Services';
 import Offer from './Offer';
-import GridImages from './GridImages';
 import MiddleContainer from './MiddleContainer';
 import PortfolioImages from './PortfolioImages';
 import PortImg from './PortImg';

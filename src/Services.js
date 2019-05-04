@@ -25,22 +25,22 @@ class Services extends Component{
 
 const iconObj = [
     {
-        icon:  <img src={Phone} style={{width:'auto'}}/>,
+        icon:  <img src={Phone} style={{width:'auto'}} alt="phone"/>,
         title: 'Responsive',
         description: 'Looks Great on Any Screen Size!'
     },
     {
-        icon:  <img src={Crayon} style={{width:'auto'}}/>,
+        icon:  <img src={Crayon} style={{width:'auto'}} alt="crayon" />,
         title: 'Redesigned',
         description: 'Freshly Redigned for Bootstrap'
     },
     {
-        icon:   <img src={Like} style={{width:'auto'}}/>,
+        icon:   <img src={Like} style={{width:'auto'}} alt="like"/>,
         title: 'Favourited',
         description: 'Millions of Users Love Start Bootsrtap!'
     },
     {
-        icon:  <img src={Ms} style={{width:'auto',paddingBottom:'1em'}}/>,
+        icon:  <img src={Ms} style={{width:'auto',paddingBottom:'1em'}} alt="ms"/>,
         title: 'Question',
         description: 'I Mustache you a Question...'
     }
