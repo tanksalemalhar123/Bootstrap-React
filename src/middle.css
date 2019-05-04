@@ -1,0 +1,24 @@
+.middle3{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.middle3 h1{
+    font-size: 3rem;
+    color:#fff;
+    padding-bottom: 30px;
+}
+
+.middle3 a{
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+    font-weight: 700;
+    background-color: #1d809f;
+    border-color:  #1d809f;
+    color: #fff;
+    padding: 1.25rem 2.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    display:inline-block;
+}

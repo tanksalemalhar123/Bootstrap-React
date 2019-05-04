@@ -1,0 +1,72 @@
+.grid{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.grid p{
+    color: #000;
+    margin-bottom: 0;
+    font-size: 80%;
+    font-weight: 700;
+    display: block;
+}
+
+
+
+.grid > .rowImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    
+}
+
+.grid > .rowImages  div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+.grid > .rowImages p{
+    margin-bottom: 0;
+    color:#fff;
+    font-size: 16px;
+}
+
+.grid > .rowImages span ion-icon{
+    color:#fff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+
+.grid > .rowImages span{
+    background-color:#1d809f; 
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 50px;
+    color:#1d809f;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+@media screen and (max-width: 800px) {
+    span {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    img {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
