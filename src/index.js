@@ -11,14 +11,18 @@ import PortImg from './PortImg';
 import Map from './Map';
 import Footer from './Footer';
 import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
+import Navbar from './Navbar';
+
 
 
 
 
 class App extends Component{
+   
     render(){
         return(
             <div>
+            <Navbar/>
            <ScrollUpButton/>
             <Header title="Stylish Portfolio" subtitle="A Theme By Me" button="Find Out More"/>
             <Offer message="Stylish Portfolio is the Perfect theme for your next Project!" submessage="This Theme features a flexible UI and a Friendly Menu" button1="What we Offer"/>

@@ -18,9 +18,15 @@ render(){
             </h3> 
             <p>Recent Project</p> 
           </div>
-          <div className="col-lg-12 col-md-12 col-sm-12 ">
-          <img src={Background1} style={{width:'auto'}} alt="bg1"/>
-          <img src={Background2} style={{width:'auto'}} alt="bg2"/>
+          <div className="col-lg-12 col-md-12 col-sm-12 container">
+          <img src={Background1} style={{width:'auto'}} alt="bg1" className="image"/>
+          <div className="overlay">
+            <div className="text">
+                Projects
+            </div>
+          </div>
+      
+          <img src={Background2} style={{width:'auto'}} alt="bg2" className="image2"/>
           <img src={Background3} style={{width:'auto'}} alt="bg3"/>
           <img src={Background4} style={{width:'auto'}} alt="bg4" />
          
